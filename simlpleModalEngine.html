@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="list_div" class="row"> <!--容器-->
+    <div class="row" id="demo_div" style="display: none"><!--模板-->
+        <div class="col-md-2" name="id">id</div>
+        <div class="col-md-2" name="name">name</div>
+        <div class="col-md-2" name="email">email</div>
+        <div class="col-md-2 event-div" property="delete">删除</div>
+        <div class="col-md-2 event-div" property="edit">编辑</div>
+    </div>
+</div>
+<style>
+
+   #list_div{
+       border: 1px solid #ddd;
+       margin-top: 100px;
+   }
+   .row{
+        border: 1px solid #ddd;
+        height: 20px;
+    }
+    .col-md-2{
+        float: left;
+        width: 20%;
+    }
+    .event-div{
+
+
+        background-color: aqua;
+    }
+</style>
+<script type="application/javascript" src="jquery-1.9.1.js"></script>
+<script type="application/javascript" src="simpleModalEngine.js"></script>
+<script type="application/javascript" src="simpleModalEngineTest.js"></script>
+
+
+
+</body>
+</html>
